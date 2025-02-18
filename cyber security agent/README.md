@@ -17,12 +17,12 @@ The system uses LangChain and a few related tools to handle data processing, log
 
 ## Agent Workflow
 The system operates with a supervisor agent who oversees the flow of tasks between the four specialized agents: Application Agent, Security Agent, System Agent, and Network Agent. Each of these agents handles a specific type of log data and works on the task assigned to them.
-
+![Capture](https://github.com/user-attachments/assets/cf28fd3c-081f-4fbf-b055-cfa93048128a)
 ### Supervisor Node
 The Supervisor Node is the brain of the operation. It decides which agent is best suited to handle a user's query and assigns the task accordingly. Once all tasks are complete, the Supervisor Node signals that the work is done and the workflow ends.
 
 ## Worker Agents
-![Capture](https://github.com/user-attachments/assets/cf28fd3c-081f-4fbf-b055-cfa93048128a)
+
 
 ### Application Agent
 This agent takes care of application-related issues. It processes application logs, looks at performance data, troubleshoots errors, and provides solutions or insights regarding any application-related problems.
